@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    color: #333;
+    background: #ffffff;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('assets/fundo-topo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin: 0 0 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.cta {
+    background: #c16551;
+    border: none;
+    padding: 12px 26px;
+    border-radius: 25px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}  
+
+/* MENU */
+.menu {
+    text-align: center;
+    padding: 15px;
+    background-image: url('assets/menu.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* CARDS */
+.titulo {
+    margin: 40px 0 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border-radius: 12px;
+    padding: 25px;
+    width: 250px;
+    text-align: left;
+
+   /* preparação para imagens */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+
+    display: block;
+    text-decoration: none;
+    color: #333; /* texto preto */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efeito de "saltadinha" ao passar o mouse */
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+}
+
+
+.card img { /* imagem interna dos cards */
+    width: 130px;
+    height: 130px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+    padding: 12px;
+}
+
+/* Cores  */
+.card.a {
+    background-color: #fdf0fe;
+    
+}
+
+.card.b {
+    background-color: #fff3eb;
+    
+}
+
+.card.c {
+    background-color: #e2f7fa;
+    
+}
+
+.card.d {
+    background-color: #f6e4f2;
+    
+}
+
+.card.e {
+    background-color: #cfeaf5;
+    
+}
+
+.card.f {
+    background-color: #def5f1;
+    
+}
+
+.card h3,
+.card p {
+    color: #555;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+
+/* CONTATO */
+.contato {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #d4f0f0, #f7f6ff, #ffe4f8);
+}
+
+.form {
+    max-width: 600px;
+    margin: 20px auto;
+    display: grid;
+    gap: 15px;
+}
+
+.form input,
+.form textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #c16551;
+    color: white;
+    cursor: pointer;
+}
+
+/* Fundo aquarelado */
+.sobre-container {
+    background: url("assets/fundo-topo.png") no-repeat center/cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    gap: 40px;
+}
+
+/* Texto */
+.sobre-texto {
+    width: 60%;
+}
+
+.sobre-texto h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sobre-texto p {
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: left;     /* ✔️ Alinhado à esquerda */
+    color: #333;
+}
+
+/* Foto em bolinha */
+.sobre-foto {
+    position: relative;
+}
+
+.sobre-foto img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgba(255,255,255,0.8);
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    position: relative;
+    top: -300px;          /* ✔️ Sobe a bolinha só no desktop */
+}
+
+/* Fundo exclusivo da página Arteterapia */
+.arteterapia-bg {
+    background: url("assets/arteterapia.png") no-repeat center/cover;
+}
+
+/* Fundo exclusivo da página escuta-ativa */
+.escuta-ativa-bg {
+    background: url("assets/escuta_ativa.png") no-repeat center/cover;
+}
+
+/* Fundo exclusivo da página Beneficios */
+.beneficios-bg {
+    background: url("assets/beneficios.png") no-repeat center/cover;
+}
+
+/* 📱 TABLET e TELEMÓVEL */
+@media (max-width: 900px) { 
+
+    .menu a {
+        line-height: 1.5em; /* dá mais respiro entre as linhas */
+        display: inline-block; /* garante que o espaçamento seja aplicado */
+       /* margin: 8px 10px;  opcional: dá um arzinho extra */
+    }
+
+    /* Fundo aquarelado sempre ativo no mobile/tablet */
+    .sobre-container {
+        background: url("assets/fundo-topo.png") no-repeat center/cover;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;      /* ✔️ mantém alinhamento à esquerda */
+        padding: 40px 8%;
+        gap: 20px;
+    }
+
+    .sobre-texto {
+        width: 100%;
+    }
+
+    /* ✔️ Bolinha desce e fica DEPOIS do texto */
+    .sobre-foto img {
+        position: static;     /* remove o top negativo */
+        margin-top: 20px;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
