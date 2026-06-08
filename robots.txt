@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://raffafe.github.io/atelierdaescuta/sitemap.xml
