@@ -267,5 +267,70 @@ button {
         height: 200px;
     }
 }
+/* SEÇÕES DE TEXTO DA HOME */
+.intro {
+    max-width: 900px;
+    margin: 0 auto 40px;
+    padding: 0 24px;
+    text-align: center;
+}
 
+.intro p {
+    font-size: 1.08rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+/* MELHORIA DOS CARDS */
+.card {
+    min-height: 390px;
+}
+
+.card h3 {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+.card p {
+    font-size: 0.92rem;
+    line-height: 1.45;
+}
+
+/* HERO MAIS ELEGANTE */
+.hero {
+    padding: 90px 20px 80px;
+}
+
+.hero p {
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+/* MOBILE */
+@media (max-width: 700px) {
+    .hero h1 {
+        font-size: 2.1rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .intro {
+        text-align: left;
+        padding: 0 28px;
+    }
+
+    .cards {
+        padding: 20px 28px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 320px;
+    }
+}
 
