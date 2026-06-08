@@ -411,3 +411,66 @@ body {
     line-height: 1.8;
     text-align: left;
 }
+
+/* HOME MAIS COMPACTA E ELEGANTE */
+
+.hero {
+    min-height: 320px;
+    padding: 70px 20px 55px;
+}
+
+.hero h1 {
+    font-size: clamp(2.6rem, 5vw, 4.6rem);
+    line-height: 1;
+    margin-bottom: 18px;
+}
+
+.hero p {
+    max-width: 760px;
+    font-size: 1.08rem;
+    line-height: 1.45;
+    margin: 12px auto;
+}
+
+.titulo {
+    margin: 38px auto 16px;
+}
+
+.titulo h2 {
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    line-height: 1.15;
+}
+
+.intro {
+    max-width: 760px;
+    margin: 0 auto 36px;
+    padding: 0 24px;
+    text-align: center;
+}
+
+.intro p {
+    font-size: 1.08rem;
+    line-height: 1.45;
+    margin: 10px 0;
+}
+
+.cards {
+    margin-bottom: 48px;
+}
+
+.contato {
+    padding: 55px 20px;
+}
+
+/* A caixa destaque fica só para páginas internas */
+.sobre-texto .destaque {
+    background: rgba(255,255,255,0.45);
+    border-left: 4px solid #c16551;
+    padding: 20px 24px;
+    margin: 28px 0;
+    border-radius: 12px;
+    max-width: 760px;
+    line-height: 1.65;
+    text-align: left;
+}
+
