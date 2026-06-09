@@ -113,11 +113,14 @@ a {
     text-align: center;
 }
 
-.secao h2 {
-    margin: 0 0 34px;
-    font-size: clamp(1.8rem, 3vw, 2.5rem);
-    line-height: 1.15;
-}
+.secao h2{
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #433542;
+    line-height: 1.2;
+    margin-bottom: 50px;
+
+} 
 
 /* MOTIVOS */
 .motivos {
