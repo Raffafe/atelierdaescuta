@@ -45,13 +45,18 @@ a {
 .hero h1 {
     max-width: 760px;
     margin: 0 auto 22px;
-    font-size: clamp(3rem, 4.8vw, 5rem);
+    font-size: clamp(2.8rem, 4.3vw, 4.6rem);
     line-height: 0.86;
     color: #433542;
+
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    letter-spacing: -1px;
 }
 
 .hero h1 span {
     display: block;
+    transform: scaleY(1.05);
 }
 
 .hero h1 em {
