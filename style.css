@@ -340,7 +340,6 @@ button {
     grid-template-columns: 1fr 280px;
     gap: 70px;
     align-items: start;
-    background: url("assets/fundo-topo.webp") no-repeat center/cover;
 }
 
 .sobre-texto {
@@ -349,10 +348,9 @@ button {
 
 .sobre-texto h1 {
     margin: 0 0 28px;
-   font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
     letter-spacing: -0.5px;
-    line-height: 1;
     font-size: clamp(2.2rem, 3.5vw, 3.4rem);
     line-height: 0.95;
     color: #433542;
@@ -363,8 +361,7 @@ button {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
     letter-spacing: -0.5px;
-    line-height: 1;
-      font-size: clamp(1.8rem, 2.8vw, 2.6rem);
+    font-size: clamp(1.8rem, 2.8vw, 2.6rem);
     line-height: 1;
     color: #433542;
 }
@@ -400,6 +397,11 @@ button {
     border: 5px solid rgba(255,255,255,0.85);
     box-shadow: 0 14px 35px rgba(80, 60, 80, 0.18);
 }
+
+.sobre-bg {
+    background: url("assets/bg-sobre.webp") no-repeat center/cover;
+}
+
 .arteterapia-bg {
     background: url("assets/bg-arteterapia.webp") no-repeat center/cover;
 }
