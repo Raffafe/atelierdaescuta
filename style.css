@@ -283,10 +283,12 @@ a {
 .contato {
     max-width: 980px;
     margin: 0 auto 70px;
-    padding: 28px 24px 26px;
+    padding: 32px 24px 28px;
     text-align: center;
-    background:
-        url("assets/hero-mobile.png") left center / cover no-repeat;
+    background-image: url("assets/fundo-contato.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 24px;
     overflow: hidden;
 }
