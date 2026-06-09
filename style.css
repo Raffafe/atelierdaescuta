@@ -409,15 +409,8 @@ button {
 }
 
 .beneficios-bg {
-    background:
-        linear-gradient(
-            90deg,
-            rgba(255, 250, 248, 0.92) 0%,
-            rgba(255, 250, 248, 0.86) 48%,
-            rgba(255, 250, 248, 0.35) 100%
-        ),
-        url("assets/bg-beneficios.webp") no-repeat center right / cover;
-} 
+    background: url("assets/bg-beneficios.webp") no-repeat center/cover;
+}
 
 
 /* TABLET */
