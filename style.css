@@ -277,6 +277,28 @@ a {
 
 .publico .cta {
     margin-top: 26px;
+} 
+/* Ajuste fino dos ícones do público */
+.publico-item img {
+    width: 96px;
+    height: 96px;
+    padding: 0;
+    background: rgba(255, 238, 231, 0.75);
+}
+
+/* Pincel */
+.publico-item:nth-child(3) img {
+    transform: scale(1.55);
+}
+
+/* Coração linha */
+.publico-item:nth-child(4) img {
+    transform: scale(1.45);
+}
+
+/* Casa */
+.publico-item:nth-child(5) img {
+    transform: scale(1.15);
 }
 
 /* CONTATO */
