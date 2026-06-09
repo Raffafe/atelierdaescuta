@@ -396,7 +396,7 @@ button {
     object-fit: cover;
     border: 5px solid rgba(255,255,255,0.85);
     box-shadow: 0 14px 35px rgba(80, 60, 80, 0.18);
-}
+} 
 
 .sobre-bg {
     background: url("assets/bg-sobre.webp") no-repeat center/cover;
@@ -404,6 +404,15 @@ button {
 
 .arteterapia-bg {
     background: url("assets/bg-arteterapia.webp") no-repeat center/cover;
+}
+
+
+.escuta-ativa-bg {
+    background: url("assets/escuta_ativa.png") no-repeat center/cover;
+}
+
+.beneficios-bg {
+    background: url("assets/bg-beneficios.webp") no-repeat center/cover;
 }
 
 .frase-destaque{
@@ -417,14 +426,6 @@ button {
 
     color: #5a4855;
 }
-.escuta-ativa-bg {
-    background: url("assets/escuta_ativa.png") no-repeat center/cover;
-}
-
-.beneficios-bg {
-    background: url("assets/bg-beneficios.webp") no-repeat center/cover;
-}
-
 
 /* TABLET */
 @media (max-width: 900px) {
