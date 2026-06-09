@@ -31,7 +31,7 @@ a {
     min-height: 390px;
     padding: 56px 24px 46px;
     text-align: center;
-    background-image: url("assets/hero-desktop.png");
+    background-image: url("assets/hero-desktop.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -285,7 +285,7 @@ a {
     margin: 0 auto 70px;
     padding: 32px 24px 28px;
     text-align: center;
-    background-image: url("assets/fundo-contato.png");
+    background-image: url("assets/fundo-contato.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -340,7 +340,7 @@ button {
     grid-template-columns: 1fr 280px;
     gap: 70px;
     align-items: start;
-    background: url("assets/fundo-topo.png") no-repeat center/cover;
+    background: url("assets/fundo-topo.webp") no-repeat center/cover;
 }
 
 .sobre-texto {
@@ -401,7 +401,7 @@ button {
     box-shadow: 0 14px 35px rgba(80, 60, 80, 0.18);
 }
 .arteterapia-bg {
-    background: url("assets/arteterapia.png") no-repeat center/cover;
+    background: url("assets/bg-arteterapia.webp") no-repeat center/cover;
 }
 
 .escuta-ativa-bg {
@@ -416,7 +416,7 @@ button {
             rgba(255, 250, 248, 0.86) 48%,
             rgba(255, 250, 248, 0.35) 100%
         ),
-        url("assets/beneficios.png") no-repeat center right / cover;
+        url("assets/bg-beneficios.webp") no-repeat center right / cover;
 } 
 
 
@@ -480,7 +480,7 @@ button {
     .hero {
         min-height: 560px;
         padding: 76px 24px 54px;
-        background-image: url("assets/hero-mobile.png");
+        background-image: url("assets/hero-mobile.webp");
         background-position: center top;
     }
 
