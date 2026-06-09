@@ -146,14 +146,14 @@ a {
 }
 
 .motivo img {
-    width: 78px;
-    height: 78px;
+    width: 96px;
+    height: 96px;
     object-fit: contain;
     display: block;
-    margin: 0 auto 14px;
-    padding: 8px;
-    border-radius: 50%;
-    background: rgba(255, 238, 231, 0.65);
+    margin: 0 auto 18px;
+    padding: 0;
+    background: none;
+    border-radius: 0;
 }
 
 .motivo p {
@@ -254,15 +254,15 @@ a {
 }
 
 .publico-item img {
-    width: 78px;
-    height: 78px;
+    width: 96px;
+    height: 96px;
     object-fit: contain;
     display: block;
-    margin: 0 auto 14px;
-    padding: 8px;
-    border-radius: 50%;
-    background: rgba(255, 238, 231, 0.65);
-}
+    margin: 0 auto 18px;
+    padding: 0;
+    background: none;
+    border-radius: 0;
+} 
 
 .publico-item p {
     max-width: 145px;
@@ -278,28 +278,6 @@ a {
 .publico .cta {
     margin-top: 26px;
 } 
-/* Ajuste fino dos ícones do público */
-.publico-item img {
-    width: 96px;
-    height: 96px;
-    padding: 0;
-    background: rgba(255, 238, 231, 0.75);
-}
-
-/* Pincel */
-.publico-item:nth-child(3) img {
-    transform: scale(1.55);
-}
-
-/* Coração linha */
-.publico-item:nth-child(4) img {
-    transform: scale(1.45);
-}
-
-/* Casa */
-.publico-item:nth-child(5) img {
-    transform: scale(1.15);
-}
 
 /* CONTATO */
 .contato {
