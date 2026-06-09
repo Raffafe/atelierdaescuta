@@ -113,13 +113,12 @@ a {
     text-align: center;
 }
 
-.secao h2{
-   font-size: 2.1rem;
+.secao h2 {
+    font-size: 2.2rem;
     line-height: 1.2;
     font-weight: 700;
-    margin-bottom: 48px;
-
-} 
+    margin-bottom: 42px;
+}
 
 /* MOTIVOS */
 .motivos {
@@ -229,30 +228,51 @@ a {
 .card.c { background-color: #e2f7fa; }
 
 /* PÚBLICO */
+.publico {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.publico h2 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+    margin-bottom: 34px;
+}
+
 .publico-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 26px;
+    max-width: 940px;
+    margin: 0 auto;
+    gap: 24px;
     align-items: start;
 }
 
 .publico-item {
     text-align: center;
+    padding: 10px 8px;
 }
 
 .publico-item img {
-    width: 86px;
-    height: 86px;
+    width: 78px;
+    height: 78px;
     object-fit: contain;
     display: block;
-    margin: 0 auto 12px;
+    margin: 0 auto 14px;
+    padding: 8px;
+    border-radius: 50%;
+    background: rgba(255, 238, 231, 0.65);
 }
 
 .publico-item p {
-    max-width: 150px;
+    max-width: 145px;
     margin: 0 auto;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     line-height: 1.35;
+}
+
+.publico .texto-central {
+    margin-top: 34px;
 }
 
 .publico .cta {
