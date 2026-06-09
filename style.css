@@ -364,7 +364,7 @@ button {
     font-weight: 600;
     letter-spacing: -0.5px;
     line-height: 1;
-    font-size: clamp(1.8rem, 2.8vw, 2.6rem);
+      font-size: clamp(1.8rem, 2.8vw, 2.6rem);
     line-height: 1;
     color: #433542;
 }
@@ -409,8 +409,16 @@ button {
 }
 
 .beneficios-bg {
-    background: url("assets/beneficios.png") no-repeat center/cover;
-}
+    background:
+        linear-gradient(
+            90deg,
+            rgba(255, 250, 248, 0.92) 0%,
+            rgba(255, 250, 248, 0.86) 48%,
+            rgba(255, 250, 248, 0.35) 100%
+        ),
+        url("assets/beneficios.png") no-repeat center right / cover;
+} 
+
 
 /* TABLET */
 @media (max-width: 900px) {
