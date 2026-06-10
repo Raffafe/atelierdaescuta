@@ -570,4 +570,63 @@ button {
     .sobre-texto li {
         font-size: 1.05rem;
     }
+}  
+
+/* HERO MULHERES CRIATIVAS */
+
+.hero-mulheres{
+    min-height: 85vh;
+
+    background-image:
+    linear-gradient(
+        rgba(247,242,237,0.35),
+        rgba(247,242,237,0.65)
+    ),
+    url('assets/mulheres-criativas-bg.webp');
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+    padding:60px 30px;
+}
+
+.hero-overlay{
+    max-width:800px;
+}
+
+.hero-mulheres h1{
+    font-family:'Cormorant Garamond', serif;
+    font-size:4rem;
+    color:#4f4151;
+    margin-bottom:25px;
+}
+
+.hero-frase{
+    font-size:1.5rem;
+    line-height:1.8;
+    color:#5f505d;
+    max-width:650px;
+    margin:0 auto;
+}
+
+@media(max-width:768px){
+
+    .hero-mulheres{
+        min-height:70vh;
+    }
+
+    .hero-mulheres h1{
+        font-size:2.6rem;
+    }
+
+    .hero-frase{
+        font-size:1.2rem;
+    }
+
 }
