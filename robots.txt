@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://raffafe.github.io/atelierdaescuta/sitemap.xml
+Sitemap: https://atelierdaescuta.com.br/sitemap.xml
