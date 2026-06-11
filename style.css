@@ -579,10 +579,10 @@ button {
     background-repeat: no-repeat;
 }
 
-.caixa-texto {
+/*.caixa-texto {
    background: rgba(255, 250, 248, 0.28);
     backdrop-filter: blur(3px);
     padding: 42px 46px;
     border-radius: 28px;
     box-shadow: 0 18px 45px rgba(120, 90, 120, 0.06);
-}
+}*/
