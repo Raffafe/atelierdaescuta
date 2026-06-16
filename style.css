@@ -650,4 +650,11 @@ button {
     .bolso-hero h1 {
         font-size: 2.35rem;
     }
+} 
+.cta-secundaria {
+    display: inline-block;
+    margin-top: 18px;
+    color: #5f6f4e;
+    text-decoration: none;
+    font-weight: bold;
 }
