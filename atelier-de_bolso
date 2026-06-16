@@ -1,0 +1,11 @@
+<header class="bolso-hero">
+    <div class="bolso-hero-texto">
+        <span class="bolso-etiqueta">Atelier de Bolso</span>
+
+        <h1>Encontros criativos para observar, expressar e cultivar aquilo que existe dentro de você.</h1>
+
+        <p>Um pequeno espaço de escuta que cabe na sua rotina.</p>
+
+        <a href="#encontros" class="cta">Conhecer os encontros</a>
+    </div>
+</header>
