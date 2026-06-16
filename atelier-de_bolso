@@ -1,11 +1,60 @@
-<header class="bolso-hero">
-    <div class="bolso-hero-texto">
-        <span class="bolso-etiqueta">Atelier de Bolso</span>
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-        <h1>Encontros criativos para observar, expressar e cultivar aquilo que existe dentro de você.</h1>
+<head>
 
-        <p>Um pequeno espaço de escuta que cabe na sua rotina.</p>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6XTEVL6XRS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6XTEVL6XRS');
+    </script>
 
-        <a href="#encontros" class="cta">Conhecer os encontros</a>
-    </div>
-</header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Atelier de Bolso | Dez Encontros Criativos de Arteterapia</title>
+
+    <meta name="description" content="Atelier de Bolso é um percurso criativo em dez encontros para observar, expressar e cultivar aquilo que existe dentro de você.">
+
+    <link rel="icon" href="assets/flor-grande.ico" type="image/x-icon">
+
+    <link rel="canonical" href="https://atelierdaescuta.com.br/atelier-de-bolso.html">
+
+    <!-- Open Graph -->
+
+    <meta property="og:title" content="Atelier de Bolso">
+    <meta property="og:description" content="Encontros criativos para observar, expressar e cultivar aquilo que existe dentro de você.">
+
+    <meta property="og:url" content="https://atelierdaescuta.com.br/atelier-de-bolso.html">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:image"
+          content="https://atelierdaescuta.com.br/assets/atelier-bolso-og.webp">
+
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter -->
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="twitter:title" content="Atelier de Bolso">
+
+    <meta name="twitter:description"
+          content="Um pequeno espaço de escuta que cabe na sua rotina.">
+
+    <meta name="twitter:image"
+          content="https://atelierdaescuta.com.br/assets/atelier-bolso-og.webp">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Parisienne&display=swap" rel="stylesheet">
+
+</head>
