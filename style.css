@@ -1011,11 +1011,17 @@ button {
     box-shadow: none;
 }
 
-.bolso-fundo-encontros .bolso-encontros-final {
-    max-width: 850px;
-    margin: 90px auto 0;
-    padding: 18px 36px;
-    background: rgba(255, 255, 255, 0.18);
-    border: 1px solid rgba(255, 255, 255, 0.75);
-    border-radius: 10px;
+.bolso-fundo-encontros .bolso-encontros-final{
+    max-width: 900px;
+    margin: 180px auto 0; /* faz o texto descer para a faixa inferior */
+    padding: 0;
+
+    background: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+
+    text-align: center;
+    font-size: 1.15rem;
+    line-height: 1.9;
 }
