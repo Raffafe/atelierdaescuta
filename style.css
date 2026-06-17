@@ -695,9 +695,9 @@ button {
     background-image: url("assets/como-funciona-para-que.webp");
 }
 
-.bolso-fundo-encontros {
+/*.bolso-fundo-encontros {
     background-image: url("assets/3-encontros-2.webp");
-}
+}*/
 
 /* CAIXAS DE TEXTO */
 
@@ -990,7 +990,7 @@ button {
     border-radius: 0;
     box-shadow: none;
 
-    background-image: url("assets/3-encontros-2.webp");
+    background-image: url("assets/3-encontros-2.webp?v=2") !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
