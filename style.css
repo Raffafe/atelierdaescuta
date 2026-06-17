@@ -963,6 +963,12 @@ button {
     font-size: 1.25rem;
     line-height: 1.75;
     margin-bottom: 6px;
+} 
+
+.bolso-intro.bolso-fundo-oquee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 800px) {
