@@ -874,4 +874,48 @@ button {
         display: block;
         margin-left: 0;
     }
+}  
+
+/* AJUSTE — BLOCO "O QUE É O ATELIER DE BOLSO" */
+
+.bolso-intro.bolso-fundo-oquee {
+    width: 100%;
+    max-width: none;
+    margin: 1cm 0 80px;
+    padding: 90px 12vw;
+    border-radius: 0;
+    box-shadow: none;
+
+    background-image: url("assets/o-que-e.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.bolso-intro .bolso-card-grande {
+    max-width: 850px;
+    margin: 0;
+    padding: 0;
+
+    background: transparent;
+    backdrop-filter: none;
+    border-radius: 0;
+    box-shadow: none;
+
+    text-align: left;
+}
+
+.bolso-intro .bolso-card-grande h2 {
+    font-size: clamp(2.4rem, 4vw, 4rem);
+    margin-bottom: 28px;
+}
+
+.bolso-intro .bolso-card-grande p {
+    font-size: 1.25rem;
+    line-height: 1.75;
+    margin-bottom: 24px;
 }
