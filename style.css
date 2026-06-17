@@ -688,7 +688,7 @@ button {
     background-image: url("assets/o-que-e.webp");
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .bolso-fundo-comofunciona {
@@ -862,10 +862,17 @@ button {
         grid-template-columns: 1fr;
     }
 
-    .bolso-card-grande,
-    .bolso-card,
-    .bolso-encontro {
-        padding: 28px 24px;
+   .bolso-card {
+    background: rgba(255,252,247,0.88);
+    backdrop-filter: blur(3px);
+    border-radius: 18px;
+    }
+
+    .bolso-card-grande {
+    background: transparent;
+    backdrop-filter: none;
+    border-radius: 0;
+    box-shadow: none;
     }
 
     .cta-secundaria {
