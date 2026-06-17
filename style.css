@@ -587,7 +587,15 @@ button {
     box-shadow: 0 18px 45px rgba(120, 90, 120, 0.06);
 }*/
 
+/* =============================== */
 /* ATELIER DE BOLSO */
+/* =============================== */
+
+.pagina-atelier-bolso {
+    background: #fff8f4;
+}
+
+/* HERO */
 
 .bolso-hero {
     min-height: 540px;
@@ -603,7 +611,7 @@ button {
 .bolso-hero-texto {
     max-width: 460px;
     padding: 38px 34px;
-    background: rgba(255, 250, 242, 0.84);
+    background: rgba(255, 250, 242, 0.86);
     border-radius: 18px;
     box-shadow: 0 18px 45px rgba(90, 70, 50, 0.12);
 }
@@ -635,30 +643,7 @@ button {
     color: #3a332d;
 }
 
-@media (max-width: 700px) {
-    .bolso-hero {
-        min-height: 620px;
-        padding: 70px 22px;
-        align-items: flex-end;
-        background-position: center top;
-    }
-
-    .bolso-hero-texto {
-        padding: 28px 24px;
-    }
-
-    .bolso-hero h1 {
-        font-size: 2.35rem;
-    }
-} 
-.cta-secundaria {
-    display: inline-block;
-    margin-top: 18px;
-    color: #5f6f4e;
-    text-decoration: none;
-    font-weight: bold;
-}
-/* BLOCOS ATELIER DE BOLSO */
+/* BLOCOS */
 
 .bolso-bloco {
     max-width: 1100px;
@@ -667,11 +652,16 @@ button {
     text-align: center;
 }
 
-.bolso-bloco h2 {
+.bolso-bloco h2,
+.bolso-card h2,
+.bolso-card-grande h2 {
     margin: 0 0 14px;
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(2rem, 3vw, 3rem);
     color: #3f4a32;
+}
+
+.bolso-bloco h2 {
+    font-size: clamp(2rem, 3vw, 3rem);
 }
 
 .bolso-subtitulo {
@@ -681,15 +671,43 @@ button {
     line-height: 1.6;
 }
 
+/* FUNDOS COM IMAGEM */
+
+.bolso-fundo {
+    max-width: 1180px;
+    min-height: 430px;
+    padding: 80px 56px;
+    border-radius: 24px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 18px 45px rgba(90, 70, 50, 0.08);
+}
+
+.bolso-fundo-oquee {
+    background-image: url("assets/o-que-e.webp");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bolso-fundo-comofunciona {
+    background-image: url("assets/como-funciona-para-que.webp");
+}
+
+.bolso-fundo-encontros {
+    background-image: url("assets/3-encontros.webp");
+}
+
+/* CAIXAS DE TEXTO */
+
 .bolso-card,
 .bolso-card-grande,
-.bolso-encontro{
-
-    background:rgba(255,252,247,0.88);
-
-    backdrop-filter:blur(3px);
-
-    border-radius:18px;
+.bolso-encontro {
+    background: rgba(255, 252, 247, 0.88);
+    backdrop-filter: blur(2px);
+    border-radius: 18px;
+    box-shadow: 0 14px 34px rgba(90, 70, 50, 0.10);
 }
 
 .bolso-card-grande {
@@ -703,6 +721,30 @@ button {
     font-size: 1.05rem;
     line-height: 1.7;
 }
+
+/* COMO FUNCIONA / PARA QUEM É */
+
+.bolso-duplo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    text-align: left;
+}
+
+.bolso-card {
+    padding: 34px 32px;
+}
+
+.bolso-card h2 {
+    font-size: clamp(1.9rem, 3vw, 2.6rem);
+}
+
+.bolso-card ul {
+    padding-left: 22px;
+    line-height: 1.8;
+}
+
+/* ENCONTROS */
 
 .bolso-grid-encontros {
     display: grid;
@@ -736,25 +778,14 @@ button {
 .bolso-encontros-final {
     max-width: 680px;
     margin: 34px auto 0;
+    padding: 18px 22px;
     font-size: 1.05rem;
     line-height: 1.6;
+    background: rgba(255, 252, 247, 0.78);
+    border-radius: 14px;
 }
 
-.bolso-duplo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 28px;
-    text-align: left;
-}
-
-.bolso-card {
-    padding: 34px 32px;
-}
-
-.bolso-card ul {
-    padding-left: 22px;
-    line-height: 1.8;
-}
+/* GALERIA */
 
 .bolso-galeria {
     display: grid;
@@ -764,9 +795,12 @@ button {
 
 .bolso-galeria img {
     width: 100%;
+    display: block;
     border-radius: 14px;
     box-shadow: 0 14px 34px rgba(90, 70, 50, 0.12);
 }
+
+/* CTA FINAL */
 
 .bolso-cta-final {
     margin: 90px auto 0;
@@ -789,7 +823,35 @@ button {
     font-weight: bold;
 }
 
+/* RESPONSIVO */
+
 @media (max-width: 800px) {
+    .bolso-hero {
+        min-height: 620px;
+        padding: 70px 22px;
+        align-items: flex-end;
+        background-position: center top;
+    }
+
+    .bolso-hero-texto {
+        padding: 28px 24px;
+    }
+
+    .bolso-hero h1 {
+        font-size: 2.35rem;
+    }
+
+    .bolso-bloco {
+        margin: 60px auto;
+        padding: 0 18px;
+    }
+
+    .bolso-fundo {
+        min-height: auto;
+        padding: 48px 20px;
+        border-radius: 18px;
+    }
+
     .bolso-grid-encontros,
     .bolso-duplo,
     .bolso-galeria {
@@ -806,51 +868,4 @@ button {
         display: block;
         margin-left: 0;
     }
-}
-.bolso-fundo-oquee{
-    background-image:url("assets/o-que-e.webp");
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-
-    min-height:420px;
-
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-
-    padding:70px;
-}
-
-.bolso-fundo-comofunciona{
-    background-image:url("assets/como-funciona-para-que.webp");
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-
-    padding:90px 40px;
-    border-radius:24px;
-}
-
-.bolso-fundo-encontros{
-    background-image:url("assets/3-encontros.webp");
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-
-    padding:90px 50px;
-    border-radius:24px;
-}
-
-.bolso-imagem-editorial {
-    max-width: 1100px;
-    margin: 60px auto;
-    padding: 0 24px;
-}
-
-.bolso-imagem-editorial img {
-    width: 100%;
-    display: block;
-    border-radius: 18px;
-    box-shadow: 0 18px 40px rgba(0,0,0,.08);
 }
