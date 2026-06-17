@@ -930,8 +930,8 @@ button {
     margin: 1cm 0 60px;
 
     /* topo inferior direita esquerda */
-    padding: 90px 12vw 90px calc(12vw + 1cm);
-
+    padding: 90px 16vw;
+    
     border-radius: 0;
     box-shadow: none;
 
