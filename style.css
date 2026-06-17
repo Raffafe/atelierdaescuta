@@ -973,3 +973,43 @@ button {
         gap: 40px;
     }
 }
+
+/* AJUSTE — BLOCO "ALGUNS ENCONTROS DO PERCURSO" */
+
+.bolso-fundo-encontros {
+    width: 100%;
+    max-width: none;
+    margin: 1cm 0 1cm;
+    padding: 70px 10vw 95px;
+    border-radius: 0;
+    box-shadow: none;
+
+    background-image: url("assets/3-encontros.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bolso-fundo-encontros .bolso-grid-encontros {
+    max-width: 1160px;
+    margin: 52px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5vw;
+}
+
+.bolso-fundo-encontros .bolso-encontro {
+    padding: 34px 28px 0;
+    text-align: center;
+    background: transparent;
+    box-shadow: none;
+}
+
+.bolso-fundo-encontros .bolso-encontros-final {
+    max-width: 850px;
+    margin: 90px auto 0;
+    padding: 18px 36px;
+    background: rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+}
