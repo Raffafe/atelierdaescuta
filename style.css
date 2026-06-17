@@ -842,4 +842,15 @@ button {
     border-radius:24px;
 }
 
+.bolso-imagem-editorial {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 24px;
+}
 
+.bolso-imagem-editorial img {
+    width: 100%;
+    display: block;
+    border-radius: 18px;
+    box-shadow: 0 18px 40px rgba(0,0,0,.08);
+}
