@@ -881,7 +881,7 @@ button {
 .bolso-intro.bolso-fundo-oquee {
     width: 100%;
     max-width: none;
-    margin: 1cm 0 80px;
+    margin: 1cm 0 1cm;
     padding: 90px 12vw;
     border-radius: 0;
     box-shadow: none;
@@ -925,8 +925,13 @@ button {
 .bolso-duplo.bolso-fundo-comofunciona {
     width: 100%;
     max-width: none;
-    margin: 1cm 0 80px;
-    padding: 90px 12vw;
+
+    /* distância entre o bloco acima e este */
+    margin: 1cm 0 60px;
+
+    /* topo inferior direita esquerda */
+    padding: 90px 12vw 90px calc(12vw + 1cm);
+
     border-radius: 0;
     box-shadow: none;
 
