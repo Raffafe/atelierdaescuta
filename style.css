@@ -702,12 +702,16 @@ button {
 /* CAIXAS DE TEXTO */
 
 .bolso-card,
-.bolso-card-grande,
-.bolso-encontro {
-    background: rgba(255, 252, 247, 0.88);
-    backdrop-filter: blur(2px);
+.bolso-card-grande{
+    background: rgba(255,252,247,0.88);
+    backdrop-filter: blur(3px);
     border-radius: 18px;
-    box-shadow: 0 14px 34px rgba(90, 70, 50, 0.10);
+}
+
+.bolso-encontro{
+    background: transparent;
+    backdrop-filter: none;
+    border-radius: 0;
 }
 
 .bolso-card-grande {
