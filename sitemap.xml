@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url>
-<loc>https://atelierdaescuta.com.br/</loc>
-</url>
-
-<url>
-<loc>https://atelierdaescuta.com.br/sobre.html</loc>
-</url>
-
-<url>
-<loc>https://atelierdaescuta.com.br/arte-terapia.html</loc>
-</url>
-
-<url>
-<loc>https://atelierdaescuta.com.br/beneficios.html</loc>
-</url>
-
-<url>
-<loc>https://atelierdaescuta.com.br/mulheres-criativas.html</loc>
-</url>
-
-<url>
-<loc>https://atelierdaescuta.com.br/arteterapia-online.html</loc>
-</url>  
+  <url>
+    <loc>https://atelierdaescuta.com.br/</loc>
+  </url>
 
   <url>
-<loc>https://atelierdaescuta.com.br/atelier-de-bolso.html</loc>
-</url>  
+    <loc>https://atelierdaescuta.com.br/sobre</loc>
+  </url>
+
+  <url>
+    <loc>https://atelierdaescuta.com.br/arte-terapia</loc>
+  </url>
+
+  <url>
+    <loc>https://atelierdaescuta.com.br/beneficios</loc>
+  </url>
+
+  <url>
+    <loc>https://atelierdaescuta.com.br/mulheres-criativas</loc>
+  </url>
+
+  <url>
+    <loc>https://atelierdaescuta.com.br/arteterapia-online</loc>
+  </url>
+
+  <url>
+    <loc>https://atelierdaescuta.com.br/atelier-de-bolso</loc>
+  </url>
+
+  <url>
+    <loc>https://atelierdaescuta.com.br/extraordinario-do-cotidiano</loc>
+  </url>
+
 </urlset>
