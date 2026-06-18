@@ -635,6 +635,8 @@ button {
     font-weight: 700;
 }
 
+/* TÍTULOS */
+
 .bolso-hero h1,
 .bolso-section h2,
 .bolso-cta-final h2 {
@@ -694,23 +696,35 @@ button {
 
 .bolso-section {
     max-width: 1180px;
-    margin: 72px auto;
+    margin: 100px auto;
     padding: 0 28px;
 }
 
 .bolso-abertura {
     display: grid;
     grid-template-columns: 1.25fr 0.75fr;
-    gap: 26px;
+    gap: 30px;
     align-items: stretch;
 }
 
-.bolso-card {
-    padding: 42px;
-    background: rgba(255, 252, 247, 0.72);
-    border: 1px solid #ebd2bf;
+.bolso-duplo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+/* CARDS */
+
+.bolso-card,
+.bolso-encontro {
+    background: #fffdf9;
+    border: 1px solid #ead8ca;
     border-radius: 24px;
-    box-shadow: 0 18px 48px rgba(108, 72, 43, 0.07);
+    box-shadow: 0 10px 30px rgba(90, 70, 50, 0.06);
+}
+
+.bolso-card {
+    padding: 46px;
 }
 
 .bolso-card-texto {
@@ -737,22 +751,31 @@ button {
 }
 
 .bolso-card h2 {
-    margin: 0 0 22px;
-    font-size: clamp(2rem, 3vw, 3rem);
+    margin: 0 0 24px;
+    font-size: clamp(2.5rem, 4vw, 3.3rem);
+    line-height: 1.05;
 }
 
 .bolso-card h3 {
     margin: 0 0 16px;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     line-height: 1.05;
     color: #34442f;
 }
 
 .bolso-card p,
 .bolso-card li {
-    font-size: 1.08rem;
-    line-height: 1.75;
+    font-size: 1.15rem;
+    line-height: 1.9;
+}
+
+.bolso-card p {
+    margin: 0 0 18px;
+}
+
+.bolso-card p:last-child {
+    margin-bottom: 0;
 }
 
 .bolso-card ul {
@@ -760,70 +783,61 @@ button {
     padding-left: 20px;
 }
 
-.bolso-duplo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 26px;
-}
-
 /* ENCONTROS */
 
 .bolso-titulo-centro {
     max-width: 720px;
-    margin: 0 auto 36px;
+    margin: 0 auto 44px;
     text-align: center;
 }
 
 .bolso-titulo-centro h2 {
-    margin: 0 0 12px;
-    font-size: clamp(2.2rem, 4vw, 3.4rem);
+    margin: 0 0 14px;
+    font-size: clamp(2.4rem, 4vw, 3.5rem);
+    line-height: 1.05;
 }
 
 .bolso-titulo-centro p {
-    font-size: 1.1rem;
-    line-height: 1.65;
+    font-size: 1.12rem;
+    line-height: 1.7;
 }
 
 .bolso-encontros {
-    padding-top: 22px;
+    padding-top: 10px;
 }
 
 .bolso-grid-encontros {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 30px;
 }
 
 .bolso-encontro {
-    min-height: 280px;
-    padding: 34px 30px;
+    min-height: 300px;
+    padding: 45px 34px;
     text-align: center;
-    background: #fffaf4;
-    border: 1px solid #ebd2bf;
-    border-radius: 22px;
-    box-shadow: 0 16px 38px rgba(108, 72, 43, 0.07);
 }
 
 .bolso-encontro span {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     color: #c95f49;
     font-weight: 800;
     letter-spacing: 1px;
 }
 
 .bolso-encontro h3 {
-    margin: 0 0 16px;
+    margin: 0 0 18px;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: 1.05;
     color: #332b25;
 }
 
 .bolso-encontro p {
     margin: 0;
-    font-size: 1rem;
-    line-height: 1.65;
+    font-size: 1.05rem;
+    line-height: 1.7;
 }
 
 /* GALERIA */
@@ -831,7 +845,7 @@ button {
 .bolso-galeria {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 30px;
 }
 
 .bolso-galeria img {
@@ -839,7 +853,7 @@ button {
     aspect-ratio: 4 / 3;
     object-fit: cover;
     display: block;
-    border-radius: 18px;
+    border-radius: 22px;
     border: 1px solid #ebd2bf;
     box-shadow: 0 16px 40px rgba(108, 72, 43, 0.11);
 }
@@ -848,18 +862,18 @@ button {
 
 .bolso-cta-final {
     max-width: 1180px;
-    margin: 82px auto 60px;
-    padding: 58px 28px;
+    margin: 90px auto 60px;
+    padding: 50px 30px;
     text-align: center;
-    background:
-        linear-gradient(135deg, rgba(248, 234, 223, 0.96), rgba(255, 250, 243, 0.96));
+    background: linear-gradient(135deg, rgba(248, 234, 223, 0.96), rgba(255, 250, 243, 0.96));
     border: 1px solid #ebd2bf;
     border-radius: 28px;
 }
 
 .bolso-cta-final h2 {
     margin: 0 0 12px;
-    font-size: clamp(2.2rem, 4vw, 3.5rem);
+    font-size: clamp(2.3rem, 4vw, 3.5rem);
+    line-height: 1.05;
 }
 
 .bolso-cta-final p {
@@ -883,6 +897,10 @@ button {
         padding: 32px 26px;
     }
 
+    .bolso-hero h1 {
+        font-size: 2.55rem;
+    }
+
     .bolso-abertura,
     .bolso-duplo,
     .bolso-grid-encontros,
@@ -891,12 +909,27 @@ button {
     }
 
     .bolso-section {
-        margin: 56px auto;
+        margin: 64px auto;
         padding: 0 20px;
     }
 
     .bolso-card {
-        padding: 30px 24px;
+        padding: 32px 24px;
+    }
+
+    .bolso-card h2 {
+        font-size: 2.35rem;
+    }
+
+    .bolso-card p,
+    .bolso-card li {
+        font-size: 1.05rem;
+        line-height: 1.75;
+    }
+
+    .bolso-encontro {
+        min-height: auto;
+        padding: 34px 26px;
     }
 
     .bolso-cta-final {
