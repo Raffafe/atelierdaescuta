@@ -601,9 +601,10 @@ button {
 }
 
 /* HERO */
+
 .bolso-hero {
-    min-height: calc(100vh - 76px);
-    padding: 48px 10%;
+    min-height: 560px;
+    padding: 45px 10%;
     display: flex;
     align-items: center;
     background-image: url("assets/atelier-bolso-hero.webp");
@@ -613,8 +614,8 @@ button {
 }
 
 .bolso-hero-texto {
-    max-width: 480px;
-    padding: 34px 36px;
+    max-width: 500px;
+    padding: 32px 38px;
     background: rgba(255, 250, 243, 0.82);
     border: 1px solid rgba(211, 156, 119, 0.22);
     border-radius: 24px;
@@ -644,15 +645,15 @@ button {
 }
 
 .bolso-hero h1 {
-    margin: 0 0 20px;
-    font-size: clamp(2.8rem, 4.4vw, 4.4rem);
-    line-height: 0.98;
+    margin: 0 0 18px;
+    font-size: clamp(2.4rem, 4vw, 4rem);
+    line-height: 0.95;
 }
 
 .bolso-hero p {
     max-width: 390px;
-    margin: 0 0 24px;
-    font-size: 1.08rem;
+    margin: 0 0 22px;
+    font-size: 1rem;
     line-height: 1.5;
 }
 
@@ -671,7 +672,7 @@ button {
 
 .cta {
     display: inline-block;
-    padding: 14px 28px;
+    padding: 12px 24px;
     border-radius: 999px;
     background: #c95f49;
     color: #fff;
@@ -695,7 +696,7 @@ button {
 
 .bolso-section {
     max-width: 1180px;
-    margin: 100px auto;
+    margin: 72px auto;
     padding: 0 28px;
 }
 
@@ -751,7 +752,7 @@ button {
 
 .bolso-card h2 {
     margin: 0 0 24px;
-    font-size: clamp(2.5rem, 4vw, 3.3rem);
+    font-size: clamp(2.2rem, 3.4vw, 3rem);
     line-height: 1.05;
 }
 
@@ -765,8 +766,8 @@ button {
 
 .bolso-card p,
 .bolso-card li {
-    font-size: 1.15rem;
-    line-height: 1.9;
+    font-size: 1.08rem;
+    line-height: 1.75;
 }
 
 .bolso-card p {
@@ -786,19 +787,19 @@ button {
 
 .bolso-titulo-centro {
     max-width: 720px;
-    margin: 0 auto 44px;
+    margin: 0 auto 36px;
     text-align: center;
 }
 
 .bolso-titulo-centro h2 {
-    margin: 0 0 14px;
-    font-size: clamp(2.4rem, 4vw, 3.5rem);
+    margin: 0 0 12px;
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
     line-height: 1.05;
 }
 
 .bolso-titulo-centro p {
-    font-size: 1.12rem;
-    line-height: 1.7;
+    font-size: 1.08rem;
+    line-height: 1.6;
 }
 
 .bolso-encontros {
@@ -861,7 +862,7 @@ button {
 
 .bolso-cta-final {
     max-width: 1180px;
-    margin: 90px auto 60px;
+    margin: 82px auto 60px;
     padding: 50px 30px;
     text-align: center;
     background: linear-gradient(135deg, rgba(248, 234, 223, 0.96), rgba(255, 250, 243, 0.96));
@@ -871,14 +872,14 @@ button {
 
 .bolso-cta-final h2 {
     margin: 0 0 12px;
-    font-size: clamp(2.3rem, 4vw, 3.5rem);
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
     line-height: 1.05;
 }
 
 .bolso-cta-final p {
     margin: 0 auto 28px;
     max-width: 560px;
-    font-size: 1.1rem;
+    font-size: 1.08rem;
     line-height: 1.6;
 }
 
@@ -886,7 +887,7 @@ button {
 
 @media (max-width: 900px) {
     .bolso-hero {
-        min-height: calc(100vh - 70px);
+        min-height: 620px;
         padding: 50px 22px;
         align-items: flex-end;
         background-position: center top;
@@ -898,7 +899,6 @@ button {
 
     .bolso-hero h1 {
         font-size: 2.35rem;
-    }
     }
 
     .bolso-abertura,
