@@ -1173,6 +1173,73 @@ button {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 26px;
+} 
+.cotidiano-card{
+    background:#fffdfa;
+    border:1px solid #e7d6c6;
+    border-radius:30px;
+    padding:2.5rem;
+    text-align:center;
+    transition:.4s ease;
+}
+
+.cotidiano-card:hover{
+    transform:translateY(-5px);
+}
+
+.cotidiano-card img{
+    width:120px;
+    height:120px;
+    object-fit:contain;
+    display:block;
+    margin:0 auto 1.5rem;
+}
+
+.cotidiano-card h3{
+    color:#34442f;
+    font-size:2rem;
+    margin-bottom:1rem;
+    line-height:1.2;
+}
+
+.cotidiano-card p{
+    font-size:1.05rem;
+    line-height:1.8;
+    color:#4e453f;
+} 
+.cotidiano-card-formato{
+    background:#fffdfa;
+    border:1px solid #e7d6c6;
+    border-radius:30px;
+    padding:2.5rem;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(90,70,50,.06);
+    transition:.4s ease;
+}
+
+.cotidiano-card-formato:hover{
+    transform:translateY(-5px);
+}
+
+.cotidiano-card-formato img{
+    width:120px;
+    height:120px;
+    object-fit:contain;
+    display:block;
+    margin:0 auto 1.5rem;
+}
+
+.cotidiano-card-formato h3{
+    font-family:'Cormorant Garamond', serif;
+    color:#34442f;
+    font-size:2rem;
+    margin-bottom:1rem;
+}
+
+.cotidiano-card-formato p{
+    font-size:1.05rem;
+    line-height:1.8;
+    color:#4e453f;
 }
 
 /* CTA FINAL */
