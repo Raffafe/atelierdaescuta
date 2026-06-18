@@ -1045,10 +1045,10 @@ button {
 }
 
 .cotidiano-card-destaque {
+    background: #f3e7dc !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #f8eadf;
     text-align: center;
 }
 .cotidiano-flor-destaque {
