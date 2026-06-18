@@ -601,10 +601,9 @@ button {
 }
 
 /* HERO */
-
 .bolso-hero {
-    min-height: 680px;
-    padding: 90px 10%;
+    min-height: calc(100vh - 76px);
+    padding: 48px 10%;
     display: flex;
     align-items: center;
     background-image: url("assets/atelier-bolso-hero.webp");
@@ -614,8 +613,8 @@ button {
 }
 
 .bolso-hero-texto {
-    max-width: 520px;
-    padding: 44px 42px;
+    max-width: 480px;
+    padding: 34px 36px;
     background: rgba(255, 250, 243, 0.82);
     border: 1px solid rgba(211, 156, 119, 0.22);
     border-radius: 24px;
@@ -645,16 +644,16 @@ button {
 }
 
 .bolso-hero h1 {
-    margin: 0 0 22px;
-    font-size: clamp(2.6rem, 5vw, 4.8rem);
+    margin: 0 0 20px;
+    font-size: clamp(2.8rem, 4.4vw, 4.4rem);
     line-height: 0.98;
 }
 
 .bolso-hero p {
     max-width: 390px;
-    margin: 0 0 28px;
-    font-size: 1.18rem;
-    line-height: 1.55;
+    margin: 0 0 24px;
+    font-size: 1.08rem;
+    line-height: 1.5;
 }
 
 /* BOTÕES */
@@ -887,18 +886,19 @@ button {
 
 @media (max-width: 900px) {
     .bolso-hero {
-        min-height: 640px;
-        padding: 70px 22px;
+        min-height: calc(100vh - 70px);
+        padding: 50px 22px;
         align-items: flex-end;
         background-position: center top;
     }
 
     .bolso-hero-texto {
-        padding: 32px 26px;
+        padding: 28px 24px;
     }
 
     .bolso-hero h1 {
-        font-size: 2.55rem;
+        font-size: 2.35rem;
+    }
     }
 
     .bolso-abertura,
