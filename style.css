@@ -1049,6 +1049,13 @@ button {
     flex-direction: column;
     justify-content: center;
     background: #f8eadf;
+    text-align: center;
+}
+.cotidiano-flor-destaque {
+    width: 120px;
+    height: auto;
+    margin: 34px auto 0;
+    opacity: 0.85;
 }
 
 .cotidiano-flor {
@@ -1119,8 +1126,8 @@ button {
 }
 
 .item-percurso {
-    height: 240px;          /* todos ficam iguais */
-    padding: 24px 18px;
+    height: 250px;
+    padding: 20px 16px;
 
     display: flex;
     flex-direction: column;
@@ -1128,18 +1135,17 @@ button {
     justify-content: center;
 
     text-align: center;
-    background: #fffdf9;
-    border: 1px solid #ead8ca;
-    border-radius: 20px;
-    box-shadow: 0 10px 24px rgba(90,70,50,.05);
+    background: transparent;
+    border: none;
+    box-shadow: none;
 }
 
 .item-percurso img {
-    width: 150px;
-    height: 150px;
+    width: 165px;
+    height: 165px;
     object-fit: contain;
     display: block;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 .item-percurso h3 {
