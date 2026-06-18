@@ -936,4 +936,355 @@ button {
         margin: 60px 20px 40px;
         padding: 44px 22px;
     }
+}  
+
+/* =============================== */
+/* O EXTRAORDINÁRIO DO COTIDIANO */
+/* =============================== */
+
+.pagina-projeto-cotidiano {
+    background: #fff8f2;
+    color: #332b25;
+}
+
+.pagina-projeto-cotidiano main {
+    overflow: hidden;
+}
+
+/* HERO */
+
+.cotidiano-hero {
+    min-height: 560px;
+    padding: 45px 10%;
+    display: flex;
+    align-items: center;
+    background-image: url("assets/hero-cotidiano.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cotidiano-hero-texto {
+    max-width: 500px;
+    padding: 36px 38px;
+    background: rgba(255, 250, 243, 0.86);
+    border: 1px solid rgba(211, 156, 119, 0.24);
+    border-radius: 24px;
+    box-shadow: 0 24px 60px rgba(82, 55, 34, 0.14);
+    backdrop-filter: blur(4px);
+}
+
+.cotidiano-etiqueta {
+    display: inline-block;
+    margin-bottom: 18px;
+    padding: 7px 14px;
+    font-size: 0.78rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #b85f45;
+    background: #f5dfce;
+    font-weight: 700;
+}
+
+/* TÍTULOS */
+
+.cotidiano-hero h1,
+.cotidiano-section h2,
+.cotidiano-cta-final h2 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #34442f;
+}
+
+.cotidiano-hero h1 {
+    margin: 0 0 18px;
+    font-size: clamp(2.6rem, 4vw, 4.2rem);
+    line-height: 0.98;
+}
+
+.cotidiano-hero p {
+    max-width: 430px;
+    margin: 0 0 24px;
+    font-size: 1.05rem;
+    line-height: 1.55;
+}
+
+/* SEÇÕES */
+
+.cotidiano-section {
+    max-width: 1180px;
+    margin: 72px auto;
+    padding: 0 28px;
+}
+
+.cotidiano-abertura {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 30px;
+    align-items: stretch;
+}
+
+.cotidiano-duplo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+/* CARDS */
+
+.cotidiano-card {
+    position: relative;
+    padding: 46px;
+    background: #fffdf9;
+    border: 1px solid #ead8ca;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(90, 70, 50, 0.06);
+}
+
+.cotidiano-card-texto {
+    text-align: left;
+}
+
+.cotidiano-card-destaque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #f8eadf;
+}
+
+.cotidiano-flor {
+    width: 58px;
+    height: auto;
+    margin-bottom: 18px;
+    opacity: 0.9;
+}
+
+.cotidiano-card h2 {
+    margin: 0 0 24px;
+    font-size: clamp(2.2rem, 3.4vw, 3rem);
+    line-height: 1.05;
+}
+
+.cotidiano-card h3 {
+    margin: 0 0 16px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.2rem;
+    line-height: 1.05;
+    color: #34442f;
+}
+
+.cotidiano-card p,
+.cotidiano-card li {
+    font-size: 1.08rem;
+    line-height: 1.75;
+}
+
+.cotidiano-card p {
+    margin: 0 0 18px;
+}
+
+.cotidiano-card p:last-child {
+    margin-bottom: 0;
+}
+
+.cotidiano-card ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+/* TÍTULOS CENTRAIS */
+
+.cotidiano-titulo-centro {
+    max-width: 760px;
+    margin: 0 auto 36px;
+    text-align: center;
+}
+
+.cotidiano-titulo-centro h2 {
+    margin: 0 0 12px;
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
+    line-height: 1.05;
+}
+
+.cotidiano-titulo-centro p {
+    font-size: 1.08rem;
+    line-height: 1.6;
+}
+
+/* VIVÊNCIAS */
+
+.cotidiano-grid-vivencias {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.cotidiano-grid-vivencias article {
+    min-height: 130px;
+    padding: 28px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #fffdf9;
+    border: 1px solid #ead8ca;
+    border-radius: 20px;
+    box-shadow: 0 10px 24px rgba(90, 70, 50, 0.05);
+    font-weight: 600;
+    line-height: 1.35;
+}
+
+/* POR QUE IMPORTA */
+
+.cotidiano-importa {
+    min-height: 420px;
+    padding: 70px 56px;
+    display: flex;
+    align-items: center;
+    background-image:
+        linear-gradient(90deg, rgba(255, 250, 243, 0.95) 0%, rgba(255, 250, 243, 0.88) 52%, rgba(255, 250, 243, 0.15) 100%),
+        url("assets/pq-importa.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #ead8ca;
+    border-radius: 28px;
+    box-shadow: 0 16px 42px rgba(90, 70, 50, 0.08);
+}
+
+.cotidiano-importa-texto {
+    max-width: 640px;
+}
+
+.cotidiano-importa h2 {
+    margin: 0 0 22px;
+    font-size: clamp(2.2rem, 4vw, 3.2rem);
+    line-height: 1.05;
+}
+
+.cotidiano-importa p {
+    margin: 0 0 18px;
+    font-size: 1.08rem;
+    line-height: 1.75;
+}
+
+/* FORMATOS */
+
+.cotidiano-grid-formatos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+}
+
+/* CTA FINAL */
+
+.cotidiano-cta-final {
+    max-width: 1180px;
+    min-height: 390px;
+    margin: 82px auto 60px;
+    padding: 60px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image:
+        linear-gradient(90deg, rgba(255, 250, 243, 0.96) 0%, rgba(255, 250, 243, 0.9) 48%, rgba(255, 250, 243, 0.2) 100%),
+        url("assets/cta-final.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #ead8ca;
+    border-radius: 28px;
+    box-shadow: 0 16px 42px rgba(90, 70, 50, 0.08);
+}
+
+.cotidiano-cta-texto {
+    max-width: 650px;
+}
+
+.cotidiano-cta-final h2 {
+    margin: 0 0 18px;
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
+    line-height: 1.05;
+}
+
+.cotidiano-cta-final p {
+    margin: 0 0 28px;
+    max-width: 560px;
+    font-size: 1.08rem;
+    line-height: 1.6;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 900px) {
+    .cotidiano-hero {
+        min-height: 620px;
+        padding: 50px 22px;
+        align-items: flex-end;
+        background-position: center top;
+    }
+
+    .cotidiano-hero-texto {
+        padding: 28px 24px;
+    }
+
+    .cotidiano-hero h1 {
+        font-size: 2.45rem;
+    }
+
+    .cotidiano-abertura,
+    .cotidiano-duplo,
+    .cotidiano-grid-formatos {
+        grid-template-columns: 1fr;
+    }
+
+    .cotidiano-grid-vivencias {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cotidiano-section {
+        margin: 64px auto;
+        padding: 0 20px;
+    }
+
+    .cotidiano-card {
+        padding: 32px 24px;
+    }
+
+    .cotidiano-card h2 {
+        font-size: 2.35rem;
+    }
+
+    .cotidiano-card p,
+    .cotidiano-card li {
+        font-size: 1.05rem;
+        line-height: 1.75;
+    }
+
+    .cotidiano-importa {
+        min-height: auto;
+        padding: 44px 26px;
+        background-image:
+            linear-gradient(rgba(255, 250, 243, 0.94), rgba(255, 250, 243, 0.94)),
+            url("assets/pq-importa.webp");
+    }
+
+    .cotidiano-cta-final {
+        min-height: auto;
+        margin: 60px 20px 40px;
+        padding: 44px 24px;
+        background-image:
+            linear-gradient(rgba(255, 250, 243, 0.94), rgba(255, 250, 243, 0.94)),
+            url("assets/cta-final.webp");
+    }
+}
+
+@media (max-width: 560px) {
+    .cotidiano-grid-vivencias {
+        grid-template-columns: 1fr;
+    }
+
+    .cotidiano-botoes {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
