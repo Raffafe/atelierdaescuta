@@ -1574,8 +1574,58 @@ background-position: center top;
   padding-bottom: 7px;
 }
 
-.pagina-projetos .projetos-hero img {
+.pagina-projetos .projetos-hero {
   width: 100%;
+  min-height: 610px;
+  background: #f8efe2;
+  display: grid;
+  grid-template-columns: 38% 62%;
+  align-items: center;
+  overflow: hidden;
+}
+
+.pagina-projetos .projetos-hero-texto {
+  padding-left: 13%;
+  padding-right: 20px;
+  text-align: left;
+  z-index: 2;
+}
+
+.pagina-projetos .projetos-hero-texto h1 {
+  margin: 0 0 10px;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(4rem, 6vw, 6.4rem);
+  line-height: 0.9;
+  font-weight: 500;
+  color: #76558e;
+}
+
+.pagina-projetos .projetos-hero-texto h2 {
+  margin: 0;
+  font-family: 'Parisienne', cursive;
+  font-size: clamp(2.2rem, 4vw, 4.5rem);
+  line-height: 1.12;
+  font-weight: 400;
+  color: #243333;
+}
+
+.pagina-projetos .projetos-coracao {
+  margin: 28px 0 26px 145px;
+  color: #c96c55;
+  font-size: 1.7rem;
+}
+
+.pagina-projetos .projetos-hero-texto p {
+  max-width: 360px;
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.pagina-projetos .projetos-hero-imagem img {
+  width: 100%;
+  height: auto;
   display: block;
 }
 
