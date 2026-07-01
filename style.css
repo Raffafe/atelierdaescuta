@@ -1614,15 +1614,16 @@ background-position: center top;
   text-align: center;
 }
 
-.pagina-projetos .projetos-hero-texto h1 {
-  margin: 0 0 2px;
-  font-family: "Parisienne", cursive !important;
+.{
+  font-family: "Parisienne", cursive;
   font-size: 6.6rem;
-  line-height: .88;
   font-weight: 400;
-  color: #76558e;
+  line-height: .88;
   letter-spacing: 0;
-  text-transform: none;
+
+  color: #76558e;
+
+  margin: 0 0 22px;
 }
 
 .pagina-projetos .projetos-hero-texto h2 {
