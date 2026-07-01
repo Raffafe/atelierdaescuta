@@ -1844,4 +1844,50 @@ body .pagina-projetos .projetos-hero .projetos-hero-texto h2 {
     width: fit-content;
     margin: 20px auto 0;
   }
+}  
+
+/* CORREÇÃO FINAL — HERO MOBILE PROJETOS */
+
+@media (max-width: 700px) {
+  body .pagina-projetos .projetos-hero {
+    height: 520px !important;
+  }
+
+  body .pagina-projetos .projetos-hero-imagem img {
+    object-fit: cover !important;
+    object-position: 56% top !important;
+  }
+
+  body .pagina-projetos .projetos-hero-texto {
+    top: 24px !important;
+    left: 50% !important;
+    width: 240px !important;
+    transform: translateX(-50%) !important;
+    text-align: center !important;
+  }
+
+  body .pagina-projetos .projetos-hero-texto h1 {
+    font-family: "Parisienne", cursive !important;
+    font-size: 3.6rem !important;
+    line-height: .85 !important;
+    margin: 0 0 8px !important;
+    color: #76558e !important;
+  }
+
+  body .pagina-projetos .projetos-hero-texto h2 {
+    font-family: "Handlee", cursive !important;
+    font-size: 1.22rem !important;
+    line-height: 1.12 !important;
+    margin: 0 !important;
+    color: #243333 !important;
+  }
+
+  body .pagina-projetos .projetos-coracao {
+    margin: 10px 0 0 !important;
+    font-size: .95rem !important;
+  }
+
+  body .pagina-projetos .projetos-hero-texto p {
+    display: none !important;
+  }
 }
