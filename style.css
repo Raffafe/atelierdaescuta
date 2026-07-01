@@ -1519,237 +1519,191 @@ background-position: center top;
         align-items: flex-start;
     }
 } 
-
 /* =============================== */
 /* PÁGINA PROJETOS */
 /* =============================== */
 
 .pagina-projetos {
-    background: #f8efe2;
-    color: #2f2a25;
-    font-family: Georgia, serif;
+  background: #f8efe2;
+  color: #2f2a25;
+  font-family: Georgia, serif;
 }
 
-/* TOPO */
-
 .pagina-projetos .projetos-topo {
-    height: 86px;
-    padding: 0 58px;
-    background: #fff8ec;
-    border-bottom: 1px solid #eadbc8;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  height: 86px;
+  padding: 0 58px;
+  background: #fff8ec;
+  border-bottom: 1px solid #eadbc8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .pagina-projetos .projetos-logo {
-    font-size: 30px;
-    font-style: italic;
-    line-height: 1;
-    white-space: nowrap;
+  font-size: 30px;
+  font-style: italic;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .pagina-projetos .projetos-logo span {
-    display: block;
-    margin-top: 6px;
-    font-size: 10px;
-    font-style: normal;
-    letter-spacing: 1px;
+  display: block;
+  margin-top: 6px;
+  font-size: 10px;
+  font-style: normal;
+  letter-spacing: 1px;
 }
 
 .pagina-projetos .projetos-menu {
-    display: flex;
-    align-items: center;
-    gap: 34px;
+  display: flex;
+  gap: 34px;
+  align-items: center;
 }
 
 .pagina-projetos .projetos-menu a {
-    color: #2f2a25;
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
+  color: #2f2a25;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .pagina-projetos .projetos-menu a.ativo {
-    color: #76558e;
-    border-bottom: 2px solid #76558e;
-    padding-bottom: 7px;
+  color: #76558e;
+  border-bottom: 2px solid #76558e;
+  padding-bottom: 7px;
 }
-
-/* HERO */
 
 .pagina-projetos .projetos-hero img {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
-
-/* TÍTULOS */
 
 .pagina-projetos .projetos-titulo-secao {
-    margin: 62px 0 38px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: normal;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+  margin: 62px 0 38px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
-
-.pagina-projetos .projetos-titulo-secao::before,
-.pagina-projetos .projetos-titulo-secao::after {
-    content: "";
-    display: inline-block;
-    width: 70px;
-    height: 1px;
-    background: #eadbc8;
-    vertical-align: middle;
-    margin: 0 24px;
-}
-
-/* GRID 3 EM 3 */
 
 .pagina-projetos .projetos-grid {
-    width: min(1180px, 92%);
-    margin: 0 auto;
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 56px 46px;
+  width: min(1180px, 92%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 56px 46px;
 }
 
 .pagina-projetos .projeto-card {
-    text-align: center;
+  text-align: center;
 }
 
 .pagina-projetos .projeto-card img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 12px;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
 }
 
 .pagina-projetos .projeto-card h3 {
-    margin: 18px 0 8px;
-    font-size: 24px;
-    font-weight: normal;
-    line-height: 1.25;
+  margin: 18px 0 8px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.25;
 }
 
 .pagina-projetos .projeto-card p {
-    margin: 0 auto 8px;
-    max-width: 330px;
-    font-size: 15px;
-    line-height: 1.55;
+  margin: 0 auto 8px;
+  max-width: 330px;
+  font-size: 15px;
+  line-height: 1.55;
 }
 
 .pagina-projetos .projeto-card strong {
-    display: block;
-    margin-top: 12px;
-    color: #76558e;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: .6px;
+  display: block;
+  margin-top: 12px;
+  color: #76558e;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .6px;
 }
-
-/* DESTAQUES */
 
 .pagina-projetos .projetos-destaques {
-    width: min(1260px, 92%);
-    margin: 0 auto 70px;
-
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 36px;
-}
-
-.pagina-projetos .projetos-destaques a {
-    display: block;
+  width: min(1260px, 92%);
+  margin: 0 auto 70px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 36px;
 }
 
 .pagina-projetos .projetos-destaques img {
-    width: 100%;
-    display: block;
-    border-radius: 20px;
+  width: 100%;
+  display: block;
+  border-radius: 20px;
 }
 
-/* RODAPÉ COM IMAGEM */
-
 .pagina-projetos .projetos-cta-rodape {
-    position: relative;
-    margin-top: 20px;
+  position: relative;
+  margin-top: 20px;
 }
 
 .pagina-projetos .projetos-cta-rodape img {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
 .pagina-projetos .projetos-botao-whatsapp {
-    position: absolute;
-    right: 14%;
-    bottom: 28%;
-
-    padding: 14px 28px;
-    border-radius: 999px;
-    background: #76558e;
-    color: #fff;
-
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
+  position: absolute;
+  right: 14%;
+  bottom: 28%;
+  padding: 14px 28px;
+  border-radius: 999px;
+  background: #76558e;
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-/* FOOTER */
-
 .pagina-projetos .projetos-footer {
-    padding: 22px 8% 30px;
-    background: #fff8ec;
-    text-align: center;
-    border-top: 1px solid #eadbc8;
+  padding: 22px 8% 30px;
+  background: #fff8ec;
+  text-align: center;
+  border-top: 1px solid #eadbc8;
 }
 
 .pagina-projetos .projetos-footer p {
-    margin: 0;
-    font-size: 18px;
-    line-height: 1.4;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.4;
 }
 
-/* RESPONSIVO */
-
 @media (max-width: 900px) {
-    .pagina-projetos .projetos-topo {
-        height: auto;
-        padding: 24px;
-        flex-direction: column;
-        gap: 18px;
-    }
+  .pagina-projetos .projetos-topo {
+    height: auto;
+    padding: 24px;
+    flex-direction: column;
+    gap: 18px;
+  }
 
-    .pagina-projetos .projetos-menu {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 18px;
-    }
+  .pagina-projetos .projetos-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+  }
 
-    .pagina-projetos .projetos-grid {
-        grid-template-columns: 1fr;
-    }
+  .pagina-projetos .projetos-grid,
+  .pagina-projetos .projetos-destaques {
+    grid-template-columns: 1fr;
+  }
 
-    .pagina-projetos .projetos-destaques {
-        grid-template-columns: 1fr;
-    }
-
-    .pagina-projetos .projetos-titulo-secao::before,
-    .pagina-projetos .projetos-titulo-secao::after {
-        width: 32px;
-        margin: 0 10px;
-    }
-
-    .pagina-projetos .projetos-botao-whatsapp {
-        position: static;
-        display: block;
-        width: fit-content;
-        margin: 20px auto 0;
-    }
+  .pagina-projetos .projetos-botao-whatsapp {
+    position: static;
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
+  }
 }
