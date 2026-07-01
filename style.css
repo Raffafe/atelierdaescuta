@@ -1534,7 +1534,7 @@ background-position: center top;
 /* TOPO */
 
 .pagina-projetos .projetos-topo {
-  height: 78px;
+  height: 86px;
   padding: 0 58px;
   background: #fff8ec;
   border-bottom: 1px solid #eadbc8;
@@ -1545,7 +1545,7 @@ background-position: center top;
 
 .pagina-projetos .projetos-logo {
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: 31px;
+  font-size: 34px;
   font-style: italic;
   line-height: 1;
   white-space: nowrap;
@@ -1579,14 +1579,12 @@ background-position: center top;
   padding-bottom: 7px;
 }
 
-/* HERO */
+/* HERO DESKTOP */
 
 .pagina-projetos .projetos-hero {
   position: relative;
   width: 100%;
-  max-width: 1500px;
   height: 520px;
-  margin: 0 auto;
   background: #f8efe2;
   overflow: hidden;
 }
@@ -1607,18 +1605,18 @@ background-position: center top;
 
 .pagina-projetos .projetos-hero-texto {
   position: absolute;
-  left: 10.5%;
-  top: 78px;
-  width: 360px;
   z-index: 2;
+  left: 9%;
+  top: 64px;
+  width: 360px;
   text-align: center;
 }
 
 .pagina-projetos .projetos-hero-texto h1 {
-  margin: 0 0 6px;
+  margin: 0 0 2px;
   font-family: "Allura", cursive;
-  font-size: 6.4rem;
-  line-height: 0.8;
+  font-size: 6rem;
+  line-height: .82;
   font-weight: 400;
   color: #76558e;
 }
@@ -1626,24 +1624,23 @@ background-position: center top;
 .pagina-projetos .projetos-hero-texto h2 {
   margin: 0;
   font-family: "Handlee", cursive;
-  font-size: 2.35rem;
+  font-size: 2.25rem;
   line-height: 1.12;
   font-weight: 400;
   color: #243333;
 }
 
 .pagina-projetos .projetos-coracao {
-  margin: 19px 0 18px;
+  margin: 18px 0 16px;
   color: #c96c55;
   font-size: 1.35rem;
 }
 
 .pagina-projetos .projetos-hero-texto p {
-  max-width: 310px;
+  max-width: 300px;
   margin: 0 auto;
-  font-size: .96rem;
-  line-height: 1.65;
-  color: #2f2a25;
+  font-size: .95rem;
+  line-height: 1.55;
 }
 
 /* TÍTULOS */
@@ -1759,35 +1756,12 @@ background-position: center top;
   line-height: 1.4;
 }
 
-/* TABLET */
-
-@media (max-width: 900px) {
-  .pagina-projetos .projetos-topo {
-    height: auto;
-    padding: 22px 24px;
-    flex-direction: column;
-    gap: 18px;
-  }
-
-  .pagina-projetos .projetos-menu {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 18px 28px;
-  }
-
-  .pagina-projetos .projetos-grid,
-  .pagina-projetos .projetos-destaques {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* MOBILE */
 
 @media (max-width: 700px) {
   .pagina-projetos .projetos-topo {
     height: 68px;
     padding: 0 18px;
-    flex-direction: row;
   }
 
   .pagina-projetos .projetos-logo {
@@ -1804,45 +1778,49 @@ background-position: center top;
 
   .pagina-projetos .projetos-topo::after {
     content: "☰";
-    font-size: 26px;
+    font-size: 28px;
     color: #2f2a25;
   }
 
   .pagina-projetos .projetos-hero {
-    height: 640px;
-    max-width: 100%;
+    height: 560px;
   }
 
   .pagina-projetos .projetos-hero-imagem img {
     object-fit: cover;
-    object-position: 54% top;
+    object-position: center top;
   }
 
   .pagina-projetos .projetos-hero-texto {
+    top: 28px;
     left: 50%;
-    top: 40px;
     transform: translateX(-50%);
-    width: 280px;
-    text-align: center;
+    width: 260px;
   }
 
   .pagina-projetos .projetos-hero-texto h1 {
-    font-size: 4.6rem;
-    margin-bottom: 4px;
+    font-size: 4.25rem;
+    line-height: .78;
+    margin-bottom: 2px;
   }
 
   .pagina-projetos .projetos-hero-texto h2 {
-    font-size: 1.65rem;
-    line-height: 1.16;
+    font-size: 1.5rem;
+    line-height: 1.15;
   }
 
   .pagina-projetos .projetos-coracao {
-    margin: 16px 0 0;
-    font-size: 1.1rem;
+    margin: 14px 0 0;
+    font-size: 1.05rem;
   }
 
   .pagina-projetos .projetos-hero-texto p {
     display: none;
+  }
+
+  .pagina-projetos .projetos-grid,
+  .pagina-projetos .projetos-destaques {
+    grid-template-columns: 1fr;
   }
 
   .pagina-projetos .projetos-botao-whatsapp {
