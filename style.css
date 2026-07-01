@@ -1771,3 +1771,76 @@ background-position: center top;
     margin: 20px auto 0;
   }
 }
+/* RESPONSIVO — HERO PROJETOS */
+
+@media (max-width: 900px) {
+  .pagina-projetos .projetos-hero {
+    height: 620px;
+  }
+
+  .pagina-projetos .projetos-hero-imagem img {
+    object-fit: cover;
+    object-position: 62% center;
+  }
+
+  .pagina-projetos .projetos-hero-texto {
+    left: 6%;
+    top: 70px;
+    width: 88%;
+    max-width: 360px;
+    text-align: left;
+  }
+
+  .pagina-projetos .projetos-hero-texto h1 {
+    font-size: 4.1rem;
+    line-height: .95;
+  }
+
+  .pagina-projetos .projetos-hero-texto h2 {
+    font-size: 2.3rem;
+    line-height: 1.18;
+    max-width: 320px;
+  }
+
+  .pagina-projetos .projetos-coracao {
+    margin: 22px 0 18px 120px;
+    font-size: 1.35rem;
+  }
+
+  .pagina-projetos .projetos-hero-texto p {
+    max-width: 285px;
+    margin: 0;
+    font-size: .95rem;
+    line-height: 1.55;
+    text-align: center;
+  }
+}
+
+@media (max-width: 520px) {
+  .pagina-projetos .projetos-hero {
+    height: 590px;
+  }
+
+  .pagina-projetos .projetos-hero-imagem img {
+    object-position: 67% center;
+  }
+
+  .pagina-projetos .projetos-hero-texto {
+    top: 55px;
+    left: 8%;
+    width: 84%;
+  }
+
+  .pagina-projetos .projetos-hero-texto h1 {
+    font-size: 3.6rem;
+  }
+
+  .pagina-projetos .projetos-hero-texto h2 {
+    font-size: 1.95rem;
+  }
+
+  .pagina-projetos .projetos-hero-texto p {
+    font-size: .88rem;
+    max-width: 255px;
+  }
+}
