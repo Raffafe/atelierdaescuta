@@ -1614,8 +1614,8 @@ background-position: center top;
   text-align: center;
 }
 
-.{
-  font-family: "Parisienne", cursive;
+.pagina-projetos .projetos-hero-texto h1 {
+  font-family: "Parisienne", cursive !important;
   font-size: 6.6rem;
   font-weight: 400;
   line-height: .88;
