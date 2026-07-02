@@ -1833,19 +1833,20 @@ body .pagina-projetos .projetos-hero .projetos-hero-imagem img{
 }
 
 body .pagina-projetos .projetos-hero .projetos-hero-texto{
-    position:absolute;
-    top:140px !important;
-    left:12px !important;      /* quase encostado na borda */
-    width:235px !important;
-    transform:none !important;
+  position:absolute;
+  top:140px !important;
+  left:12px !important;
+  width:235px !important;
+  transform:none !important;
 
-    display:flex;
-    flex-direction:column;
-    align-items:flex-start;   /* <-- em vez de centralizar */
-    text-align:left !important;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  text-align:left !important;
 
-    z-index:2;
+  z-index:2;
 }
+    
 body .pagina-projetos .projetos-hero .projetos-hero-texto h1{
   font-family:"Parisienne", cursive !important;
   font-size:3.35rem !important;
