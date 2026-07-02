@@ -1825,35 +1825,36 @@ body .pagina-projetos .projetos-hero .projetos-hero-texto h2 {
   body .pagina-projetos .projetos-hero .projetos-hero-imagem img{
     width:100%;
     height:100%;
-    object-fit:cover;
-    object-position:center top;
-    display:block;
+   
+    display:block; 
+    object-fit: cover !important;
+   object-position: 52% top !important;
   }
 
 body .pagina-projetos .projetos-hero .projetos-hero-texto{
-  top: 36px !important;
-  left: 22px !important;
-  width: 220px !important;
+  top: 38px !important;
+  left: 18px !important;
+  width: 245px !important;
   transform: none !important;
   text-align: center !important;
   z-index: 2 !important;
 }
-    
+
 body .pagina-projetos .projetos-hero .projetos-hero-texto h1{
   font-family: "Parisienne", cursive !important;
-  font-size: 3.65rem !important;
+  font-size: 3.45rem !important;
   line-height: .85 !important;
   margin: 0 0 8px !important;
   color: #76558e !important;
 }
 
-  body .pagina-projetos .projetos-hero .projetos-hero-texto h2{
-    font-family:"Handlee",cursive;
-    font-size:1.22rem;
-    line-height:1.12;
-    margin:0;
-    color:#243333;
-  }
+body .pagina-projetos .projetos-hero .projetos-hero-texto h2{
+  font-family: "Handlee", cursive !important;
+  font-size: 1.18rem !important;
+  line-height: 1.12 !important;
+  margin: 0 !important;
+  color: #243333 !important;
+}
 
   body .pagina-projetos .projetos-coracao{
     margin:10px 0 0;
