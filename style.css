@@ -1818,15 +1818,13 @@ body .pagina-projetos .projetos-hero .projetos-hero-texto h2 {
     display:block;
   }
 
-  body .pagina-projetos .projetos-hero .projetos-hero-texto{
-    position:absolute;
-    top:24px;
-    left:50%;
-    transform:translateX(-50%);
-    width:250px;
-    text-align:center;
-    z-index:2;
-  }
+ body .pagina-projetos .projetos-hero .projetos-hero-texto{
+  top:42px !important;
+  left:31px !important;
+  width:250px !important;
+  transform:none !important;
+  text-align:center !important;
+}
 
  body .pagina-projetos .projetos-hero .projetos-hero-texto h1{
   font-family:"Parisienne", cursive !important;
