@@ -1818,20 +1818,21 @@ body .pagina-projetos .projetos-hero .projetos-hero-texto h2 {
     display:block;
   }
 
- body .pagina-projetos .projetos-hero .projetos-hero-texto{
-  top:42px !important;
-  left:31px !important;
-  width:250px !important;
-  transform:none !important;
-  text-align:center !important;
+body .pagina-projetos .projetos-hero .projetos-hero-texto{
+  top: 36px !important;
+  left: 22px !important;
+  width: 220px !important;
+  transform: none !important;
+  text-align: center !important;
+  z-index: 2 !important;
 }
-
- body .pagina-projetos .projetos-hero .projetos-hero-texto h1{
-  font-family:"Parisienne", cursive !important;
-  font-size:3.45rem !important;
-  line-height:.88 !important;
-  color:#76558e !important;
-  margin:0 0 10px !important;
+    
+body .pagina-projetos .projetos-hero .projetos-hero-texto h1{
+  font-family: "Parisienne", cursive !important;
+  font-size: 3.65rem !important;
+  line-height: .85 !important;
+  margin: 0 0 8px !important;
+  color: #76558e !important;
 }
 
   body .pagina-projetos .projetos-hero .projetos-hero-texto h2{
