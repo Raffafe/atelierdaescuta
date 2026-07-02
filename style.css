@@ -1809,64 +1809,63 @@ body .pagina-projetos .projetos-hero .projetos-hero-texto h2 {
     font-size:13px;
   }
 
-  /* HERO */
+  /* HERO MOBILE */
 
-  body .pagina-projetos .projetos-hero{
-    position:relative;
-    height:640px !important;
-    overflow:hidden;
-  }
+body .pagina-projetos .projetos-hero{
+  position:relative;
+  height:auto !important;
+  overflow:hidden;
+}
 
-  body .pagina-projetos .projetos-hero .projetos-hero-imagem{
-    position:absolute;
-    inset:0;
-  }
+body .pagina-projetos .projetos-hero .projetos-hero-imagem{
+  position:relative !important;
+  inset:auto !important;
+  display:block;
+  width:100%;
+}
 
-  body .pagina-projetos .projetos-hero .projetos-hero-imagem img{
-    width:100%;
-    height:100%;
-   
-    display:block; 
-    object-fit: cover !important;
-   object-position: 52% top !important;
-  }
+body .pagina-projetos .projetos-hero .projetos-hero-imagem img{
+  width:100% !important;
+  height:auto !important;
+  object-fit:contain !important;
+  object-position:center top !important;
+  display:block;
+}
 
 body .pagina-projetos .projetos-hero .projetos-hero-texto{
-    position:absolute;
-    top: 145px !important;
-    left: 8px !important;
-    width: 215px !important;
-
-    transform:none !important;
-
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-
-    z-index:2;
+  position:absolute;
+  top:34px !important;
+  left:18px !important;
+  width:230px !important;
+  transform:none !important;
+  text-align:center !important;
+  z-index:2;
 }
 
 body .pagina-projetos .projetos-hero .projetos-hero-texto h1{
-    font-family:"Parisienne", cursive !important;
-    font-size:3.45rem !important;
-    line-height:.85 !important;
-    margin:0 0 12px !important;
+  font-family:"Parisienne", cursive !important;
+  font-size:3.55rem !important;
+  line-height:.85 !important;
+  margin:0 0 12px !important;
+  color:#76558e !important;
 }
-    
+
 body .pagina-projetos .projetos-hero .projetos-hero-texto h2{
-    font-size:1.16rem !important;
-    line-height:1.15 !important;
-    max-width:205px;
+  font-family:"Handlee", cursive !important;
+  font-size:1.18rem !important;
+  line-height:1.15 !important;
+  margin:0 !important;
+  color:#243333 !important;
 }
 
-  body .pagina-projetos .projetos-coracao{
-    margin:10px 0 0;
-    font-size:1rem;
-  }
+body .pagina-projetos .projetos-coracao{
+  margin:12px 0 0 !important;
+  font-size:1rem !important;
+}
 
-  body .pagina-projetos .projetos-hero-texto p{
-    display:none;
-  }
+body .pagina-projetos .projetos-hero-texto p{
+  display:none !important;
+}
 
   /* GRID */
 
