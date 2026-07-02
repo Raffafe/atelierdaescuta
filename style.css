@@ -1879,4 +1879,42 @@ body .pagina-projetos .projetos-coracao{
   font-size:12px;
 }
 
+}  
+
+@media (max-width:700px){
+
+  body .pagina-projetos .projetos-hero{
+    position:relative !important;
+    height:auto !important;
+    overflow:hidden !important;
+  }
+
+  body .pagina-projetos .projetos-hero .projetos-hero-texto{
+    position:absolute !important;
+    top:18% !important;
+    left:9% !important;
+    width:58% !important;
+    z-index:5 !important;
+    text-align:left !important;
+  }
+
+  body .pagina-projetos .projetos-hero .projetos-hero-texto h1{
+    font-size:64px !important;
+    line-height:.8 !important;
+    margin:0 0 14px !important;
+    color:#7b55a3 !important;
+  }
+
+  body .pagina-projetos .projetos-hero .projetos-hero-texto h2{
+    font-size:22px !important;
+    line-height:1.15 !important;
+    max-width:260px !important;
+    margin:0 !important;
+    color:#263238 !important;
+  }
+
+  body .pagina-projetos .projetos-hero-texto p,
+  body .pagina-projetos .projetos-coracao{
+    display:none !important;
+  }
 }
