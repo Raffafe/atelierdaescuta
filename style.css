@@ -1833,45 +1833,28 @@ body .pagina-projetos .projetos-hero .projetos-hero-imagem img{
 }
 
 body .pagina-projetos .projetos-hero .projetos-hero-texto{
-  position:absolute;
-  top:140px !important;
-  left:12px !important;
-  width:235px !important;
-  transform:none !important;
+    position:absolute;
+    top:115px;
+    left:38px;
+    width:330px;
 
-  display:flex;
-  flex-direction:column;
-  align-items:flex-start;
-  text-align:left !important;
-
-  z-index:2;
+    text-align:left;
 }
-    
+
 body .pagina-projetos .projetos-hero .projetos-hero-texto h1{
-  font-family:"Parisienne", cursive !important;
-  font-size:3.35rem !important;
-  line-height:.85 !important;
-  margin:0 0 14px !important;
-  color:#76558e !important;
-  align-self:flex-start;
+    font-size:4.1rem;
+    margin:0 0 18px;
 }
 
 body .pagina-projetos .projetos-hero .projetos-hero-texto h2{
-  font-family:"Handlee", cursive !important;
-  font-size:1.14rem !important;
-  line-height:1.15 !important;
-  margin:0 !important;
-  color:#243333 !important;
-  text-align:left !important;
+    font-size:1.25rem;
+    line-height:1.2;
 }
-    
+
 body .pagina-projetos .projetos-coracao{
-
-  font-size:1rem !important;
-    margin:18px 0 0 105px !important; /* mantém o coração aproximadamente centralizado */
+    text-align:center;
+    margin-top:18px;
 }
-
-
 body .pagina-projetos .projetos-hero-texto p{
   display:none !important;
 }
