@@ -1834,8 +1834,8 @@ body .pagina-projetos .projetos-hero .projetos-hero-imagem img{
 
 body .pagina-projetos .projetos-hero .projetos-hero-texto{
     position:absolute;
-    top:145px !important;
-    left:6px !important;      /* quase encostado na borda */
+    top:140px !important;
+    left:12px !important;      /* quase encostado na borda */
     width:235px !important;
     transform:none !important;
 
