@@ -1828,13 +1828,13 @@ body .pagina-projetos .projetos-hero .projetos-hero-texto h2 {
     z-index:2;
   }
 
-  body .pagina-projetos .projetos-hero .projetos-hero-texto h1{
-    font-family:"Parisienne",cursive !important;
-    font-size:3.45rem;
-    line-height:.88;
-    color:#76558e;
-    margin:0 0 10px;
-  }
+ body .pagina-projetos .projetos-hero .projetos-hero-texto h1{
+  font-family:"Parisienne", cursive !important;
+  font-size:3.45rem !important;
+  line-height:.88 !important;
+  color:#76558e !important;
+  margin:0 0 10px !important;
+}
 
   body .pagina-projetos .projetos-hero .projetos-hero-texto h2{
     font-family:"Handlee",cursive;
