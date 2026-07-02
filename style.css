@@ -1905,13 +1905,13 @@ body .pagina-projetos .projetos-coracao{
     color:#7b55a3 !important;
   }
 
-  body .pagina-projetos .projetos-hero .projetos-hero-texto h2{
-    font-size:22px !important;
-    line-height:1.15 !important;
+ body .pagina-projetos .projetos-hero .projetos-hero-texto h2{
+    font-size:20px !important;
+    line-height:1.22 !important;
     max-width:260px !important;
     margin:0 !important;
     color:#263238 !important;
-  }
+}
 
   body .pagina-projetos .projetos-hero-texto p,
   body .pagina-projetos .projetos-coracao{
