@@ -1719,6 +1719,14 @@ body .pagina-projetos .projetos-hero .projetos-hero-texto h2 {
   border-radius: 20px;
 }
 
+.pagina-projetos .projetos-subtitulo-destaque {
+  margin: -24px 0 32px;
+  text-align: center;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #76558e;
+}
 /* CTA */
 
 .pagina-projetos .projetos-cta-rodape {
@@ -1733,16 +1741,20 @@ body .pagina-projetos .projetos-hero .projetos-hero-texto h2 {
 
 .pagina-projetos .projetos-botao-whatsapp {
   position: absolute;
-  right: 14%;
-  bottom: 28%;
-  padding: 14px 28px;
+  left: 50%;
+  top: 18%;
+  transform: translateX(-50%);
+  padding: 20px 48px;
   border-radius: 999px;
   background: #76558e;
   color: #fff;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 17px;
   font-weight: 700;
   text-transform: uppercase;
+  white-space: nowrap;
+  z-index: 2;
+  box-shadow: 0 8px 18px rgba(47, 42, 37, .18);
 }
 
 /* FOOTER */
@@ -1860,10 +1872,15 @@ body .pagina-projetos .projetos-hero .projetos-hero-texto h1{
   }
 
   .pagina-projetos .projetos-botao-whatsapp{
-    position:static;
-    display:block;
-    width:fit-content;
-    margin:20px auto 0;
-  }
+  position:absolute;
+  left:50%;
+  top:14%;
+  transform:translateX(-50%);
+  width:max-content;
+  max-width:82%;
+  text-align:center;
+  padding:14px 24px;
+  font-size:12px;
+}
 
 }
