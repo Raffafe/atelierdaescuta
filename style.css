@@ -1832,28 +1832,31 @@ body .pagina-projetos .projetos-hero .projetos-hero-texto h2 {
   }
 
 body .pagina-projetos .projetos-hero .projetos-hero-texto{
-  top: 92px !important;
-  left: 14px !important;
-  width: 235px !important;
-  transform: none !important;
-  text-align: center !important;
-  z-index: 2 !important;
+    position:absolute;
+    top: 145px !important;
+    left: 8px !important;
+    width: 215px !important;
+
+    transform:none !important;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    z-index:2;
 }
 
 body .pagina-projetos .projetos-hero .projetos-hero-texto h1{
-  font-family: "Parisienne", cursive !important;
-  font-size: 3.35rem !important;
-  line-height: .85 !important;
-  margin: 0 0 10px !important;
-  color: #76558e !important;
-} 
+    font-family:"Parisienne", cursive !important;
+    font-size:3.45rem !important;
+    line-height:.85 !important;
+    margin:0 0 12px !important;
+}
     
 body .pagina-projetos .projetos-hero .projetos-hero-texto h2{
-  font-family: "Handlee", cursive !important;
-  font-size: 1.18rem !important;
-  line-height: 1.12 !important;
-  margin: 0 !important;
-  color: #243333 !important;
+    font-size:1.16rem !important;
+    line-height:1.15 !important;
+    max-width:205px;
 }
 
   body .pagina-projetos .projetos-coracao{
