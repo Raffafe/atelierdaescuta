@@ -1760,88 +1760,111 @@ body .pagina-projetos .projetos-hero .projetos-hero-texto h2 {
   line-height: 1.4;
 }
 
-/* MOBILE */
+/* ===============================
+   MOBILE
+================================ */
 
-@media (max-width: 700px) {
-  .pagina-projetos .projetos-topo {
-    height: auto;
-    padding: 18px 12px 16px;
-    flex-direction: column;
-    justify-content: center;
-    gap: 14px;
+@media (max-width:700px){
+
+  /* TOPO */
+
+  .pagina-projetos .projetos-topo{
+    height:auto;
+    padding:18px 12px 16px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:14px;
   }
 
-  .pagina-projetos .projetos-logo {
-    font-size: 28px;
-    text-align: center;
+  .pagina-projetos .projetos-logo{
+    font-size:28px;
+    text-align:center;
   }
 
-  .pagina-projetos .projetos-logo span {
-    font-size: 8px;
+  .pagina-projetos .projetos-logo span{
+    font-size:8px;
   }
 
-  .pagina-projetos .projetos-menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 16px 24px;
+  .pagina-projetos .projetos-menu{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:16px 24px;
   }
 
-  .pagina-projetos .projetos-menu a {
-    font-size: 13px;
+  .pagina-projetos .projetos-menu a{
+    font-size:13px;
   }
 
-  body .pagina-projetos .projetos-hero {
-    height: 520px !important;
+  /* HERO */
+
+  body .pagina-projetos .projetos-hero{
+    position:relative;
+    height:640px !important;
+    overflow:hidden;
   }
 
-  body .pagina-projetos .projetos-hero .projetos-hero-imagem img {
-    object-fit: cover !important;
-    object-position: 56% top !important;
+  body .pagina-projetos .projetos-hero .projetos-hero-imagem{
+    position:absolute;
+    inset:0;
   }
 
-  body .pagina-projetos .projetos-hero .projetos-hero-texto {
-    top: 24px !important;
-    left: 50% !important;
-    width: 240px !important;
-    transform: translateX(-50%) !important;
-    text-align: center !important;
+  body .pagina-projetos .projetos-hero .projetos-hero-imagem img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center top;
+    display:block;
   }
 
-  body .pagina-projetos .projetos-hero .projetos-hero-texto h1 {
-    font-family: "Parisienne", cursive !important;
-    font-size: 3.6rem !important;
-    line-height: .85 !important;
-    margin: 0 0 8px !important;
-    color: #76558e !important;
+  body .pagina-projetos .projetos-hero .projetos-hero-texto{
+    position:absolute;
+    top:24px;
+    left:50%;
+    transform:translateX(-50%);
+    width:250px;
+    text-align:center;
+    z-index:2;
   }
 
-  body .pagina-projetos .projetos-hero .projetos-hero-texto h2 {
-    font-family: "Handlee", cursive !important;
-    font-size: 1.22rem !important;
-    line-height: 1.12 !important;
-    margin: 0 !important;
-    color: #243333 !important;
+  body .pagina-projetos .projetos-hero .projetos-hero-texto h1{
+    font-family:"Parisienne",cursive !important;
+    font-size:3.45rem;
+    line-height:.88;
+    color:#76558e;
+    margin:0 0 10px;
   }
 
-  body .pagina-projetos .projetos-hero .projetos-coracao {
-    margin: 10px 0 0 !important;
-    font-size: .95rem !important;
+  body .pagina-projetos .projetos-hero .projetos-hero-texto h2{
+    font-family:"Handlee",cursive;
+    font-size:1.22rem;
+    line-height:1.12;
+    margin:0;
+    color:#243333;
   }
 
-  body .pagina-projetos .projetos-hero .projetos-hero-texto p {
-    display: none !important;
+  body .pagina-projetos .projetos-coracao{
+    margin:10px 0 0;
+    font-size:1rem;
   }
+
+  body .pagina-projetos .projetos-hero-texto p{
+    display:none;
+  }
+
+  /* GRID */
 
   .pagina-projetos .projetos-grid,
-  .pagina-projetos .projetos-destaques {
-    grid-template-columns: 1fr;
+  .pagina-projetos .projetos-destaques{
+    grid-template-columns:1fr;
   }
 
-  .pagina-projetos .projetos-botao-whatsapp {
-    position: static;
-    display: block;
-    width: fit-content;
-    margin: 20px auto 0;
+  .pagina-projetos .projetos-botao-whatsapp{
+    position:static;
+    display:block;
+    width:fit-content;
+    margin:20px auto 0;
   }
+
 }
