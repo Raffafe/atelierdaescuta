@@ -1703,40 +1703,72 @@ body .pagina-projetos .projetos-hero .projetos-hero-texto h2 {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: .6px;
-}
+} 
+
+
 /* CONTEXTO DAS OFICINAS */
 
 .pagina-projetos .projetos-contexto{
   width:100%;
-  margin:80px 0;
-  padding:80px 8%;
-  background:#efe2cf;
+  margin:80px 0 70px;
+  padding:72px 7% 70px;
+  background:linear-gradient(180deg, #fff8ec 0%, #efe2cf 100%);
   text-align:center;
 }
 
 .pagina-projetos .projetos-contexto h2{
   font-family:"Cormorant Garamond", Georgia, serif;
-  font-size:52px;
+  font-size:48px;
   font-weight:600;
   color:#7b55a3;
-  margin:0 0 28px;
+  margin:0 0 24px;
+  line-height:1.1;
+}
+
+.pagina-projetos .projetos-contexto h2::after{
+  content:"♡";
+  display:block;
+  margin:22px auto 0;
+  font-size:24px;
+  color:#c96c55;
+  font-weight:400;
 }
 
 .pagina-projetos .projetos-contexto p{
-  max-width:1200px;
-  margin:0 auto 30px;
-  font-size:28px;
-  line-height:1.6;
+  max-width:1050px;
+  margin:0 auto 34px;
+  font-size:24px;
+  line-height:1.45;
 }
 
 .pagina-projetos .projetos-publicos{
-  max-width:1300px;
-  margin:35px auto;
-  font-size:26px;
-  line-height:1.8;
-  color:#7b55a3;
-  font-weight:600;
-} 
+  max-width:1280px;
+  margin:48px auto 42px;
+  display:grid;
+  grid-template-columns:repeat(7, 1fr);
+  gap:28px;
+}
+
+.pagina-projetos .projetos-publicos span{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:14px;
+  font-size:20px;
+  line-height:1.15;
+}
+
+.pagina-projetos .projetos-publicos span::before{
+  content:"🌿";
+  width:74px;
+  height:74px;
+  border-radius:50%;
+  background:#fffaf1;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:34px;
+}
 
 /* DESTAQUES */
 
